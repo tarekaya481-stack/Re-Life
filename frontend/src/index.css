@@ -1,0 +1,104 @@
+/* ===== HEADER STYLE ===== */
+.header {
+  display: flex;
+  justify-content: space-between; /* اللوجو شمال والروابط يمين */
+  align-items: center;
+  padding: 15px 50px;
+  background: linear-gradient(to right, #054521, #165832); /* لون هادئ يشبه الهيرو */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+  border-radius: 0 0 12px 12px; /* حواف سفلية مستديرة */
+  position: sticky; /* يثبت عند النزول */
+  top: 0;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* اللوجو */
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* روابط الهيدر */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255,255,255,0.2); /* تأثير hover لطيف */
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  display: flex;
+  justify-content: space-between; /* الشمال واليمين متباعدين */
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #054521; /* نفس لون الهيدر */
+  color: #fff;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+  border-radius: 12px 12px 0 0; /* حواف عليا مستديرة */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-center {
+  flex: 1; /* النص يتوسع ليملأ المسافة بين الشمال واليمين */
+  justify-content: center;
+}
+
+.footer-right {
+  gap: 15px;
+}
+
+/* اللوجو */
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* أزرار الفوتر */
+.footer-btn {
+  background-color: #fff;
+  color: #2e8b57;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-btn:hover {
+  background-color: #c9f5db;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}

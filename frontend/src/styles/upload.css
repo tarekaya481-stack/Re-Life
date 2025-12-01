@@ -1,0 +1,104 @@
+.upload-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl; /* النصوص من اليمين لليسار */
+}
+
+/* ===== HERO ===== */
+.hero {
+  background-color: #3cb371; /* لون متناسق مع الهوم */
+  color: #410404;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== FORM ===== */
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-form {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.upload-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  text-align: right; /* أسماء البوكسات على اليمين */
+}
+
+.upload-form input[type="text"],
+.upload-form textarea,
+.upload-form select,
+.upload-form input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #031a0f;
+  font-size: 1rem;
+}
+
+.upload-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* زرار إرسال التبرع */
+.submit-btn {
+  background-color: #2e8b57;
+  color: #fff;
+}
+
+.submit-btn:hover {
+  background-color: #4caf50;
+}
+
+/* زرار تحديد الموقع */
+.location-btn {
+  background-color: #033115;
+  color: #fff;
+}
+
+.location-btn:hover {
+  background-color: #00aaff;
+}
+.map-section {
+  margin-bottom: 20px;
+}

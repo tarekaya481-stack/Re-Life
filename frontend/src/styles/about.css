@@ -1,0 +1,71 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.about-box {
+  max-width: 700px;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  text-align: right; /* كل الكلام هيتجه لليمين */
+  direction: rtl; /* لضمان دعم العربية بشكل كامل */
+}
+
+.about-box h1 {
+  color: #044204;
+  margin-bottom: 15px;
+  text-align: center; /* العنوان يبقى في النص */
+}
+
+.about-box h2 {
+  margin-top: 20px;
+  color: #22ab26;
+}
+
+.about-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-box ul {
+  list-style-type: disc;
+  padding-right: 20px; /* بدل padding-left */
+  color: #555;
+  margin-top: 10px;
+}
+
+.about-box ul li {
+  margin-bottom: 8px;
+}
+
+.team-list {
+  list-style-type: none; /* لإلغاء النقاط */
+  padding: 0;
+  margin-top: 10px;
+}
+
+.team-list li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: right; /* الأسماء يمين */
+}
+.about-box ul {
+  list-style-position: inside; /* النقاط داخل النص */
+  list-style-type: disc;
+  padding-right: 20px; /* للتماشي مع النص على اليمين */
+  color: #555;
+  margin-top: 10px;
+}
+
+.about-box ul li {
+  margin-bottom: 8px;
+  text-align: right;
+}

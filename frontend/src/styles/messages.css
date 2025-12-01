@@ -1,0 +1,128 @@
+/* messages.css */
+
+/* الحاوية الرئيسية */
+.chat-container {
+  display: flex;
+  height: 80vh;
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* قائمة المستخدمين */
+.user-list {
+  width: 25%;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-list h4 {
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: #333;
+}
+
+.user {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.user:hover {
+  background-color: #e0e0e0;
+}
+
+.user.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* منطقة الدردشة */
+.chat-area {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.chat-area h4 {
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: #333;
+}
+
+/* صندوق الرسائل */
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* كل رسالة */
+.message {
+  padding: 6px 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+/* رسائل المرسل */
+.sent {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
+
+/* رسائل المستقبل */
+.received {
+  background-color: #f1f0f0;
+  align-self: flex-start;
+}
+
+/* اسم المرسل */
+.sender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* منطقة الإدخال */
+.input-area {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-area button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-area button:hover {
+  background-color: #45a049;
+}

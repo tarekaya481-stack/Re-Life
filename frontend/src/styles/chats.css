@@ -1,0 +1,27 @@
+.chats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.chat-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-item h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.chat-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
